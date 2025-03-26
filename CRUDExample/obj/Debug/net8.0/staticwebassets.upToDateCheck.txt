@@ -1,1 +1,2 @@
+wwwroot\Rotativa\wkhtmltopdf.exe
 wwwroot\StyleSheet.css

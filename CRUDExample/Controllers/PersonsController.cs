@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Rotativa.AspNetCore;
 using ServiceContracts;
 using ServiceContracts.DTO;
 using ServiceContracts.Enums;
@@ -55,5 +56,28 @@ namespace CRUDExample.Controllers
             _personsService.AddPerson(personAddRequest);
             return RedirectToAction("Index", "Persons");
         }
-   }
+
+        [Route("persons/pdf")]
+        public async Task<IActionResult> PersonPdf()
+        {
+            List<PersonResponse> persons = _personsService.GetAllPersons();
+            return new ViewAsPdf("PersonsPdf", persons, ViewData)
+            {
+                PageMargins = new Rotativa.AspNetCore.Options.Margins(20, 20, 20, 20),
+                PageOrientation = Rotativa.AspNetCore.Options.Orientation.Landscape,
+            };
+        }
+        [Route("persons/csv")]
+        public async Task<IActionResult> PersonCSV()
+        {
+            MemoryStream memoryStream = await _personsService.GetPersonsCSV();
+            return File(memoryStream, "text/octet-stream", "Persons.csv");
+        }
+        [Route("persons/excel")]
+        public async Task<IActionResult> PersonExcel()
+        {
+            MemoryStream memoryStream = await _personsService.GetPersonsCSV();
+            return File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "persons.xlsx");
+        }
+    }
 }

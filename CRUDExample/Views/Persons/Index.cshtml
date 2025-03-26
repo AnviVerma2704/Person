@@ -6,6 +6,9 @@
 <form action="~/persons/index" method="get">
 <h1>Persons</h1>
 <a href="~/persons/create">Add new entry</a>
+<a href="~/persons/pdf">Download PDF</a>
+	<a href="~/persons/csv">Download CSV</a>
+	<a href="~/persons/excel">Download excel</a>
 <div class="box flex">
 	<div class="flex-1">
 		<select class="form-input" name="searchBy">
@@ -29,7 +32,6 @@
 	</div>
 </div>
 <table class="table w-100 mt">
-		<table class="table w-100 mt">
 			<thead>
 				<tr>
 					@await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary(ViewData) {
