@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CRUDExample.Filters.ActionFilters;
+using Microsoft.AspNetCore.Mvc;
 using Rotativa.AspNetCore;
 using ServiceContracts;
 using ServiceContracts.DTO;
@@ -10,15 +11,21 @@ namespace CRUDExample.Controllers
   {
     private readonly IPersonsService _personsService;
     private readonly ICountriesService _countriesService;
-        public PersonsController(IPersonsService personsService, ICountriesService countriesService)
+        private readonly ILogger<PersonsController> _logger;
+        public PersonsController(IPersonsService personsService, ICountriesService countriesService, ILogger<PersonsController> logger)
         {
             _personsService = personsService;
             _countriesService = countriesService;
+            _logger = logger;
         }
         [Route("persons/index")]
         [Route("/")]
+        [TypeFilter(typeof(PersonsListActionFilter))]
         public IActionResult Index(string searchBy, string? searchString, string sortBy = nameof(PersonResponse.PersonName), SortOrderOptions sortOrder=SortOrderOptions.ASC)
         {
+            _logger.LogInformation("Index action method of PersonsController");
+
+            _logger.LogDebug($"searchBy: {searchBy}, searchString: {searchString}, sortBy: {sortBy}, sortOrder: {sortOrder}");
             ViewBag.SearchField = new Dictionary<string, string>()
             {
                 { nameof(PersonResponse.PersonName), "Person Name" },

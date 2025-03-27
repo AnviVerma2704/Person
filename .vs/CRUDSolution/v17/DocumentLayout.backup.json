@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\filters\\actionfilters\\personslistactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\filters\\actionfilters\\personslistactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -22,24 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonsController.cs",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Controllers\\PersonsController.cs",
+              "RelativeDocumentMoniker": "CRUDExample\\Controllers\\PersonsController.cs",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Controllers\\PersonsController.cs",
+              "RelativeToolTip": "CRUDExample\\Controllers\\PersonsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:17:53.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PersonsListActionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Filters\\ActionFilters\\PersonsListActionFilter.cs",
+              "RelativeDocumentMoniker": "CRUDExample\\Filters\\ActionFilters\\PersonsListActionFilter.cs",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Filters\\ActionFilters\\PersonsListActionFilter.cs*",
+              "RelativeToolTip": "CRUDExample\\Filters\\ActionFilters\\PersonsListActionFilter.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwFAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:52:41.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\appsettings.json",
               "RelativeDocumentMoniker": "CRUDExample\\appsettings.json",
               "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\appsettings.json",
               "RelativeToolTip": "CRUDExample\\appsettings.json",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-27T09:16:36.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Program.cs",
               "RelativeDocumentMoniker": "CRUDExample\\Program.cs",
@@ -47,12 +81,11 @@
               "RelativeToolTip": "CRUDExample\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T07:13:55.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:13:55.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\appsettings.Development.json",
               "RelativeDocumentMoniker": "CRUDExample\\appsettings.Development.json",
@@ -60,8 +93,7 @@
               "RelativeToolTip": "CRUDExample\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T07:12:01.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T07:12:01.538Z"
             }
           ]
         }
