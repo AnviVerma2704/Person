@@ -6,6 +6,7 @@ using Microsoft.Extensions.Options;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
@@ -16,26 +17,16 @@ builder.Services.AddDbContext<PersonsDbContext>(options =>
     options.UseSqlServer(builder.Configuration["ConnectionString:DefaultConnection"]);
 });
 
-builder.Host.ConfigureLogging(loggingProvider => {
-    loggingProvider.ClearProviders();
-    loggingProvider.AddConsole();
-    loggingProvider.AddDebug();
-    loggingProvider.AddEventLog();
+builder.Host.UseSerilog((HostBuilderContext context, IServiceProvider services, LoggerConfiguration loggerConfiguration) => {
+
+    loggerConfiguration
+    .ReadFrom.Configuration(context.Configuration)
+    .ReadFrom.Services(services); 
 });
 
 var app = builder.Build();
-if (builder.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
-}
 
-app.UseHttpLogging();
-
-app.Logger.LogDebug("debug-message");
-app.Logger.LogInformation("information-message");
-app.Logger.LogWarning("warning-message");
-app.Logger.LogError("error-message");
-app.Logger.LogCritical("critical-message");
+//app.UseHttpLogging();
 
 
 Rotativa.AspNetCore.RotativaConfiguration.Setup("wwwroot",wkhtmltopdfRelativePath: "Rotativa");
