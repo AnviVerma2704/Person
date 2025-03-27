@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\views\\countries\\uploadfromexcel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\views\\countries\\uploadfromexcel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0E524B-616F-43FD-B56A-9749BCD3328A}|ServiceContracts\\ServiceContracts.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\servicecontracts\\icountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0E524B-616F-43FD-B56A-9749BCD3328A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\icountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0E524B-616F-43FD-B56A-9749BCD3328A}|ServiceContracts\\ServiceContracts.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\servicecontracts\\ipersonsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0E524B-616F-43FD-B56A-9749BCD3328A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\ipersonsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AA4BB6-DB84-4E44-A001-924D25820FA7}|Services\\Services.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\services\\countriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AA4BB6-DB84-4E44-A001-924D25820FA7}|Services\\Services.csproj|solutionrelative:services\\countriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +39,12 @@
       "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\views\\persons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{51AA4BB6-DB84-4E44-A001-924D25820FA7}|Services\\Services.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\services\\personsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51AA4BB6-DB84-4E44-A001-924D25820FA7}|Services\\Services.csproj|solutionrelative:services\\personsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB0E524B-616F-43FD-B56A-9749BCD3328A}|ServiceContracts\\ServiceContracts.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\servicecontracts\\ipersonsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB0E524B-616F-43FD-B56A-9749BCD3328A}|ServiceContracts\\ServiceContracts.csproj|solutionrelative:servicecontracts\\ipersonsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\crudexample\\views\\persons\\personspdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1C89440C-E190-47BD-9CE1-235F4E5B9AFB}|CRUDExample\\CRUDExample.csproj|solutionrelative:crudexample\\views\\persons\\personspdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51AA4BB6-DB84-4E44-A001-924D25820FA7}|Services\\Services.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\services\\countriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51AA4BB6-DB84-4E44-A001-924D25820FA7}|Services\\Services.csproj|solutionrelative:services\\countriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,19 +54,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\appsettings.json",
-              "RelativeDocumentMoniker": "CRUDExample\\appsettings.json",
-              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\appsettings.json",
-              "RelativeToolTip": "CRUDExample\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-26T12:45:04.188Z",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CRUDExample\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CRUDExample\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T06:28:58.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UploadFromExcel.cshtml",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Views\\Countries\\UploadFromExcel.cshtml",
+              "RelativeDocumentMoniker": "CRUDExample\\Views\\Countries\\UploadFromExcel.cshtml",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Views\\Countries\\UploadFromExcel.cshtml",
+              "RelativeToolTip": "CRUDExample\\Views\\Countries\\UploadFromExcel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T06:28:32.512Z",
               "EditorCaption": ""
             },
             {
@@ -65,40 +90,14 @@
               "RelativeDocumentMoniker": "ServiceContracts\\IPersonsService.cs",
               "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ServiceContracts\\IPersonsService.cs",
               "RelativeToolTip": "ServiceContracts\\IPersonsService.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAiwEMAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T12:06:02.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersonsController.cs",
-              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Controllers\\PersonsController.cs",
-              "RelativeDocumentMoniker": "CRUDExample\\Controllers\\PersonsController.cs",
-              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Controllers\\PersonsController.cs",
-              "RelativeToolTip": "CRUDExample\\Controllers\\PersonsController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAYwE8AAAB7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T11:49:06.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Views\\Persons\\Index.cshtml",
-              "RelativeDocumentMoniker": "CRUDExample\\Views\\Persons\\Index.cshtml",
-              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Views\\Persons\\Index.cshtml",
-              "RelativeToolTip": "CRUDExample\\Views\\Persons\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T11:41:46.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "PersonsPdf.cshtml",
               "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Views\\Persons\\PersonsPdf.cshtml",
               "RelativeDocumentMoniker": "CRUDExample\\Views\\Persons\\PersonsPdf.cshtml",
@@ -112,40 +111,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PersonsController.cs",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Controllers\\PersonsController.cs",
+              "RelativeDocumentMoniker": "CRUDExample\\Controllers\\PersonsController.cs",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Controllers\\PersonsController.cs",
+              "RelativeToolTip": "CRUDExample\\Controllers\\PersonsController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwE8AAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:49:06.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountriesController.cs",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Controllers\\CountriesController.cs",
+              "RelativeDocumentMoniker": "CRUDExample\\Controllers\\CountriesController.cs",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Controllers\\CountriesController.cs",
+              "RelativeToolTip": "CRUDExample\\Controllers\\CountriesController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T06:12:16.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICountriesService.cs",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ServiceContracts\\ICountriesService.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\ICountriesService.cs",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ServiceContracts\\ICountriesService.cs",
+              "RelativeToolTip": "ServiceContracts\\ICountriesService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wB8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T05:53:42.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Program.cs",
               "RelativeDocumentMoniker": "CRUDExample\\Program.cs",
               "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Program.cs",
               "RelativeToolTip": "CRUDExample\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T09:40:32.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "PersonsService.cs",
               "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\Services\\PersonsService.cs",
               "RelativeDocumentMoniker": "Services\\PersonsService.cs",
               "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\Services\\PersonsService.cs",
               "RelativeToolTip": "Services\\PersonsService.cs",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAqwP4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAPIAAAAAAAAAAAA6wP4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T09:29:19.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CountriesService.cs",
               "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\Services\\CountriesService.cs",
               "RelativeDocumentMoniker": "Services\\CountriesService.cs",
               "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\Services\\CountriesService.cs",
               "RelativeToolTip": "Services\\CountriesService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwGgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T09:14:46.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Views\\Persons\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDExample\\Views\\Persons\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\CRUDExample\\Views\\Persons\\Index.cshtml",
+              "RelativeToolTip": "CRUDExample\\Views\\Persons\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T11:41:46.682Z",
               "EditorCaption": ""
             }
           ]
