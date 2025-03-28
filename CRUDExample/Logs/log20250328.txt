@@ -1,0 +1,41 @@
+2025-03-28 09:54:06.385 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Countries/UploadFromExcel.cshtml'.
+2025-03-28 09:54:06.430 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Persons/Create.cshtml'.
+2025-03-28 09:54:06.434 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Persons/Edit.cshtml'.
+2025-03-28 09:54:06.436 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Persons/Index.cshtml'.
+2025-03-28 09:54:06.439 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Persons/PersonsPdf.cshtml'.
+2025-03-28 09:54:06.440 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_GridColumnHeader.cshtml'.
+2025-03-28 09:54:06.442 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-03-28 09:54:06.443 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-03-28 09:54:06.445 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-03-28 09:54:06.457 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-28 09:54:06.520 +05:30 [DBG] Hosting starting
+2025-03-28 09:54:06.533 +05:30 [INF] User profile is available. Using 'C:\Users\anvi.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-28 09:54:06.546 +05:30 [DBG] Reading data from file 'C:\Users\anvi.verma\AppData\Local\ASP.NET\DataProtection-Keys\key-324d5b57-08b3-40f1-9087-e32477f89dc8.xml'.
+2025-03-28 09:54:06.558 +05:30 [DBG] Found key {324d5b57-08b3-40f1-9087-e32477f89dc8}.
+2025-03-28 09:54:06.568 +05:30 [DBG] Considering key {324d5b57-08b3-40f1-9087-e32477f89dc8} with expiration date 2025-06-16 05:28:40Z as default key.
+2025-03-28 09:54:06.574 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-28 09:54:06.579 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-28 09:54:06.582 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-28 09:54:06.587 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-28 09:54:06.592 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-28 09:54:06.594 +05:30 [DBG] Using key {324d5b57-08b3-40f1-9087-e32477f89dc8} as the default key.
+2025-03-28 09:54:06.596 +05:30 [DBG] Key ring with default key {324d5b57-08b3-40f1-9087-e32477f89dc8} was loaded during application startup.
+2025-03-28 09:54:06.602 +05:30 [DBG] Middleware loaded
+2025-03-28 09:54:06.604 +05:30 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16507 B).
+2025-03-28 09:54:06.607 +05:30 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-03-28 09:54:06.654 +05:30 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-03-28 09:54:06.676 +05:30 [INF] Now listening on: http://localhost:5298
+2025-03-28 09:54:06.680 +05:30 [DBG] Loaded hosting startup assembly CRUDExample
+2025-03-28 09:54:06.683 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-28 09:54:06.685 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-28 09:54:06.687 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-28 09:54:06.749 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-28 09:54:06.752 +05:30 [INF] Hosting environment: Development
+2025-03-28 09:54:06.755 +05:30 [INF] Content root path: C:\Users\anvi.verma\Downloads\Persons app\CRUDExample
+2025-03-28 09:54:06.757 +05:30 [DBG] Hosting started
+2025-03-28 09:54:06.963 +05:30 [DBG] Connection id "0HNBDM1GJSUBP" received FIN.
+2025-03-28 09:54:06.974 +05:30 [DBG] Connection id "0HNBDM1GJSUBP" accepted.
+2025-03-28 09:54:06.977 +05:30 [DBG] Connection id "0HNBDM1GJSUBP" started.
+2025-03-28 09:54:06.989 +05:30 [DBG] Connection id "0HNBDM1GJSUBP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-28 09:54:06.994 +05:30 [DBG] Connection id "0HNBDM1GJSUBP" disconnecting.
+2025-03-28 09:54:07.001 +05:30 [DBG] Connection id "0HNBDM1GJSUBP" stopped.

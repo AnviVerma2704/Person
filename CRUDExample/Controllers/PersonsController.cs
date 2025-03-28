@@ -21,6 +21,7 @@ namespace CRUDExample.Controllers
         [Route("persons/index")]
         [Route("/")]
         [TypeFilter(typeof(PersonsListActionFilter))]
+        [TypeFilter(typeof(ResponseHeaderActionFilter),Arguments = new object[] { "X-Custom-Key","Custom-Valu" })]
         public IActionResult Index(string searchBy, string? searchString, string sortBy = nameof(PersonResponse.PersonName), SortOrderOptions sortOrder=SortOrderOptions.ASC)
         {
             _logger.LogInformation("Index action method of PersonsController");
@@ -44,6 +45,8 @@ namespace CRUDExample.Controllers
         }
         [Route("persons/create")]
         [HttpGet]
+        [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "key", "value" })]
+
         public IActionResult Create()
         {
             ViewBag.Countries = _countriesService.GetAllCountries();
