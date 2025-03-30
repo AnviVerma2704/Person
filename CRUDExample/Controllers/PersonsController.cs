@@ -1,4 +1,5 @@
 ﻿using CRUDExample.Filters.ActionFilters;
+using CRUDExample.Filters.AuthorizationFilters;
 using Microsoft.AspNetCore.Mvc;
 using Rotativa.AspNetCore;
 using ServiceContracts;
@@ -46,6 +47,7 @@ namespace CRUDExample.Controllers
         [Route("persons/create")]
         [HttpGet]
         [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments = new object[] { "key", "value" })]
+        [TypeFilter(typeof(TokenResultFilter))]
 
         public IActionResult Create()
         {
@@ -54,6 +56,7 @@ namespace CRUDExample.Controllers
         }
         [Route("persons/create")]
         [HttpPost]
+        [TypeFilter(typeof(TokenAuthorizationFilter))]
         public IActionResult Create(PersonAddRequest personAddRequest)
         {
             if (!ModelState.IsValid)
