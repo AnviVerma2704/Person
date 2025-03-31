@@ -7,6 +7,7 @@ using static System.Net.Mime.MediaTypeNames;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System;
 using Serilog;
+using CRUDExample.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
@@ -28,6 +29,18 @@ var app = builder.Build();
 
 //app.UseHttpLogging();
 
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseDeveloperExceptionPage();
+//}
+//else
+//{
+//    app.UseExceptionHandler("/Error");
+//    app.UseHsts();
+//}
+
+app.UseExceptionHandler("/Error");
+app.UseExceptionHandlingMiddleware();
 
 Rotativa.AspNetCore.RotativaConfiguration.Setup("wwwroot",wkhtmltopdfRelativePath: "Rotativa");
 
