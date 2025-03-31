@@ -14,7 +14,7 @@ namespace CRUDTests
   public class PersonsServiceTest
   {
     //private fields
-    private readonly IPersonsService _personService;
+    private readonly IPersonsAdderService _personService;
     private readonly ICountriesService _countriesService;
     private readonly ITestOutputHelper _testOutputHelper;
 

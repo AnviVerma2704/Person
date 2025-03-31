@@ -12,14 +12,14 @@ using OfficeOpenXml;
 
 namespace Services
 {
-  public class PersonsService : IPersonsService
+  public class PersonsDeleterService : IPersonsDeleterService
   {
     //private field
     private readonly PersonsDbContext _db;
     private readonly ICountriesService _countriesService;
 
     //constructor
-    public PersonsService(PersonsDbContext personsDbContext, ICountriesService countriesService)
+    public PersonsDeleterService(PersonsDbContext personsDbContext, ICountriesService countriesService)
     {
       _db = personsDbContext;
       _countriesService = countriesService;

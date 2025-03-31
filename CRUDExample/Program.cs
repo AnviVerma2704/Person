@@ -11,8 +11,11 @@ using CRUDExample.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<ICountriesService, CountriesService>();   
-builder.Services.AddScoped<IPersonsService, PersonsService>();
+builder.Services.AddScoped<ICountriesService, CountriesService>();
+builder.Services.AddScoped<IPersonsGetterService, PersonsGetterService>();
+builder.Services.AddScoped<IPersonsUpdaterService, PersonsUpdaterService>();
+builder.Services.AddScoped<IPersonsDeleterService, PersonsDeleterService>();
+builder.Services.AddScoped<IPersonsAdderService, PersonsAdderService>();
 builder.Services.AddDbContext<PersonsDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration["ConnectionString:DefaultConnection"]);

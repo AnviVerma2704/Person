@@ -10,15 +10,23 @@ namespace CRUDExample.Controllers
 {
   public class PersonsController : Controller
   {
-    private readonly IPersonsService _personsService;
-    private readonly ICountriesService _countriesService;
+    private readonly IPersonsAdderService _personsAdderService;
+    private readonly IPersonsGetterService _personsGetterService;
+    private readonly IPersonsDeleterService _personsDeleterService;
+    private readonly IPersonsUpdaterService _personsUpdaterService;
+        private readonly ICountriesService _countriesService;
         private readonly ILogger<PersonsController> _logger;
-        public PersonsController(IPersonsService personsService, ICountriesService countriesService, ILogger<PersonsController> logger)
+        public PersonsController(IPersonsGetterService personsGetterService, IPersonsAdderService personsAdderService, IPersonsDeleterService personsDeleterService, IPersonsUpdaterService personsUpdaterService, ICountriesService countriesService, ILogger<PersonsController> logger)
         {
-            _personsService = personsService;
+            _personsGetterService = personsGetterService;
+            _personsAdderService = personsAdderService;
+            _personsUpdaterService = personsUpdaterService;
+            _personsDeleterService = personsDeleterService;
+
             _countriesService = countriesService;
             _logger = logger;
         }
+
         [Route("persons/index")]
         [Route("/")]
         [TypeFilter(typeof(PersonsListActionFilter))]
@@ -35,11 +43,11 @@ namespace CRUDExample.Controllers
                 { nameof(PersonResponse.DateOfBirth), "Date Of Birth" },
                 { nameof(PersonResponse.Gender),"Gender" }
             };
-        List<PersonResponse> person = _personsService.GetFilteredPersons(searchBy, searchString);
+        List<PersonResponse> person = _personsGetterService.GetFilteredPersons(searchBy, searchString);
             ViewBag.CurrentSearchString = searchString;
             ViewBag.CurrentSearchBy = searchBy;
 
-            List<PersonResponse> sortedPersons = _personsService.GetSortedPersons(person, sortBy, sortOrder);
+            List<PersonResponse> sortedPersons = _personsGetterService.GetSortedPersons(person, sortBy, sortOrder);
             ViewBag.SortOrder = sortOrder;
             ViewBag.SortBy = sortBy;
             return View(sortedPersons);
@@ -66,14 +74,14 @@ namespace CRUDExample.Controllers
                 ViewBag.Errors = ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage).ToList();
                 return View();
             }
-            _personsService.AddPerson(personAddRequest);
+            _personsAdderService.AddPerson(personAddRequest);
             return RedirectToAction("Index", "Persons");
         }
 
         [Route("persons/pdf")]
         public async Task<IActionResult> PersonPdf()
         {
-            List<PersonResponse> persons = _personsService.GetAllPersons();
+            List<PersonResponse> persons = _personsGetterService.GetAllPersons();
             return new ViewAsPdf("PersonsPdf", persons, ViewData)
             {
                 PageMargins = new Rotativa.AspNetCore.Options.Margins(20, 20, 20, 20),
@@ -83,13 +91,13 @@ namespace CRUDExample.Controllers
         [Route("persons/csv")]
         public async Task<IActionResult> PersonCSV()
         {
-            MemoryStream memoryStream = await _personsService.GetPersonsCSV();
+            MemoryStream memoryStream = await _personsGetterService.GetPersonsCSV();
             return File(memoryStream, "text/octet-stream", "Persons.csv");
         }
         [Route("persons/excel")]
         public async Task<IActionResult> PersonExcel()
         {
-            MemoryStream memoryStream = await _personsService.GetPersonsCSV();
+            MemoryStream memoryStream = await _personsGetterService.GetPersonsCSV();
             return File(memoryStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "persons.xlsx");
         }
     }
