@@ -1,0 +1,25 @@
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\bin\Debug\net8.0\ContactsManager.Core.deps.json
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\bin\Debug\net8.0\ContactsManager.Core.dll
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\bin\Debug\net8.0\ContactsManager.Core.pdb
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.csproj.AssemblyReference.cache
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.AssemblyInfoInputs.cache
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.AssemblyInfo.cs
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.dll
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\obj\Debug\net8.0\refint\ContactsManager.Core.dll
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.pdb
+C:\Users\anvi.verma\Downloads\abc\ContactsManager.Core\obj\Debug\net8.0\ref\ContactsManager.Core.dll
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\bin\Debug\net8.0\ContactsManager.Core.deps.json
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\bin\Debug\net8.0\ContactsManager.Core.dll
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\bin\Debug\net8.0\ContactsManager.Core.pdb
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.csproj.AssemblyReference.cache
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.AssemblyInfoInputs.cache
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.AssemblyInfo.cs
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.sourcelink.json
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.dll
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\obj\Debug\net8.0\refint\ContactsManager.Core.dll
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\obj\Debug\net8.0\ContactsManager.Core.pdb
+C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.Core\obj\Debug\net8.0\ref\ContactsManager.Core.dll
