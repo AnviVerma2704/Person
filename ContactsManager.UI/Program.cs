@@ -46,8 +46,13 @@ if (builder.Environment.IsEnvironment("Test") == false)
 
 app.UseStaticFiles();
 app.UseAuthentication();
+app.UseAuthorization();
 app.UseRouting();
 app.MapControllers();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(name: "areas", pattern: "{area:exists}/{controller=Home}/{action=Index}");
+});
 
 app.Run();
 

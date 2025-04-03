@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|solutionrelative:contactsmanager.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.ui\\startupextensions\\configureservicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|solutionrelative:contactsmanager.ui\\startupextensions\\configureservicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|solutionrelative:contactsmanager.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|solutionrelative:contactsmanager.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BB3A93F-BFED-4F94-B161-12F68735E1C1}|ContactsManager.Core\\ContactsManager.Core.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.core\\domain\\identityentities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BB3A93F-BFED-4F94-B161-12F68735E1C1}|ContactsManager.Core\\ContactsManager.Core.csproj|solutionrelative:contactsmanager.core\\domain\\identityentities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|solutionrelative:contactsmanager.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BB3A93F-BFED-4F94-B161-12F68735E1C1}|ContactsManager.Core\\ContactsManager.Core.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.core\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BB3A93F-BFED-4F94-B161-12F68735E1C1}|ContactsManager.Core\\ContactsManager.Core.csproj|solutionrelative:contactsmanager.core\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.ui\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|solutionrelative:contactsmanager.ui\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|solutionrelative:contactsmanager.ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.ui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|solutionrelative:contactsmanager.ui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.ui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D64ECBA7-BECB-4238-83DA-BA95568D42BF}|ContactsManager.UI\\ContactsManager.UI.csproj|solutionrelative:contactsmanager.ui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB3A93F-BFED-4F94-B161-12F68735E1C1}|ContactsManager.Core\\ContactsManager.Core.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.core\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB3A93F-BFED-4F94-B161-12F68735E1C1}|ContactsManager.Core\\ContactsManager.Core.csproj|solutionrelative:contactsmanager.core\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D0CCCC8-2985-4FE3-9B93-62104A31A508}|ContactsManager.Infrastructure\\ContactsManager.Infrastructure.csproj|c:\\users\\anvi.verma\\downloads\\persons app\\contactsmanager.infrastructure\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,102 +38,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ContactsManager.UI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ContactsManager.UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T06:50:16.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConfigureServicesExtension.cs",
-              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\StartupExtensions\\ConfigureServicesExtension.cs",
-              "RelativeDocumentMoniker": "ContactsManager.UI\\StartupExtensions\\ConfigureServicesExtension.cs",
-              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\StartupExtensions\\ConfigureServicesExtension.cs",
-              "RelativeToolTip": "ContactsManager.UI\\StartupExtensions\\ConfigureServicesExtension.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwEwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ContactsManager.UI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ContactsManager.UI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwFkAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T06:19:25.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.Core\\Domain\\IdentityEntities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "ContactsManager.Core\\Domain\\IdentityEntities\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.Core\\Domain\\IdentityEntities\\ApplicationUser.cs",
-              "RelativeToolTip": "ContactsManager.Core\\Domain\\IdentityEntities\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T23:27:29.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.Core\\DTO\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "ContactsManager.Core\\DTO\\RegisterDTO.cs",
-              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.Core\\DTO\\RegisterDTO.cs",
-              "RelativeToolTip": "ContactsManager.Core\\DTO\\RegisterDTO.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T23:23:12.031Z",
+              "WhenOpened": "2025-04-03T12:32:49.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ContactsManager.UI\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Controllers\\AccountController.cs*",
-              "RelativeToolTip": "ContactsManager.UI\\Controllers\\AccountController.cs*",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwCsAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T23:20:17.883Z",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ContactsManager.UI\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ContactsManager.UI\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAcwE8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T10:29:40.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ContactsManager.UI\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ContactsManager.UI\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T09:08:12.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Program.cs",
               "RelativeDocumentMoniker": "ContactsManager.UI\\Program.cs",
-              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Program.cs*",
-              "RelativeToolTip": "ContactsManager.UI\\Program.cs*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Program.cs",
+              "RelativeToolTip": "ContactsManager.UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T05:38:53.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "ContactsManager.UI\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "ContactsManager.UI\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ContactsManager.UI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.UI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ContactsManager.UI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T23:31:41.67Z",
+              "WhenOpened": "2025-04-03T12:30:28.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.Core\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "ContactsManager.Core\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.Core\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "ContactsManager.Core\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T08:56:30.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\anvi.verma\\Downloads\\Persons app\\ContactsManager.Infrastructure\\DbContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ContactsManager.Infrastructure\\DbContext\\ApplicationDbContext.cs",
@@ -145,7 +128,8 @@
               "RelativeToolTip": "ContactsManager.Infrastructure\\DbContext\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T23:49:46.216Z"
+              "WhenOpened": "2025-04-02T23:49:46.216Z",
+              "EditorCaption": ""
             }
           ]
         }

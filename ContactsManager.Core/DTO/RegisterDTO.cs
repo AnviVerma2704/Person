@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using ContactsManager.Core.Enums;
 
 namespace ContactsManager.Core.DTO
 {
@@ -29,5 +30,7 @@ namespace ContactsManager.Core.DTO
         [Required(ErrorMessage = "Confirm Password can't be blank")]
         [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
+
+        public UserTypeOptions userType { get; set; } = UserTypeOptions.User;
     }
 }

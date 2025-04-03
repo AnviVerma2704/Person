@@ -1,3 +1,0 @@
-2025-04-02 10:59:28.865 +05:30 [INF] Application started. Press Ctrl+C to shut down.
-2025-04-02 10:59:28.883 +05:30 [INF] Hosting environment: Development
-2025-04-02 10:59:28.889 +05:30 [INF] Content root path: C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.UI
