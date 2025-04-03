@@ -1,0 +1,84 @@
+2025-04-02 11:03:30.222 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-02 11:03:30.233 +05:30 [INF] Hosting environment: Development
+2025-04-02 11:03:30.237 +05:30 [INF] Content root path: C:\Users\anvi.verma\Downloads\Persons app\ContactsManager.UI
+2025-04-02 11:06:45.345 +05:30 [INF] User profile is available. Using 'C:\Users\anvi.verma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-02 11:06:45.591 +05:30 [INF] Now listening on: http://localhost:5153
+2025-04-02 11:06:46.237 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5153/ - null null
+2025-04-02 11:06:46.338 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+2025-04-02 11:06:46.369 +05:30 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2025-04-02 11:06:46.451 +05:30 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManager.UI).
+2025-04-02 11:06:46.630 +05:30 [INF] Before logic - ResponseHeaderActionFilter
+2025-04-02 11:06:46.633 +05:30 [INF] Before logic - ResponseHeaderActionFilter
+2025-04-02 11:06:46.635 +05:30 [INF] Before logic - ResponseHeaderActionFilter
+2025-04-02 11:06:46.636 +05:30 [INF] PersonsListActionFilter.OnActionExecuting method
+2025-04-02 11:06:46.640 +05:30 [INF] Index action method of PersonsController
+2025-04-02 11:06:46.647 +05:30 [INF] GetFilteredPersons of PersonsService
+2025-04-02 11:06:46.650 +05:30 [INF] GetAllPersons of PersonsRepository
+2025-04-02 11:06:47.284 +05:30 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-04-02 11:06:47.631 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2025-04-02 11:06:47.722 +05:30 [INF] Time for Filtered Persons from Database completed in 1072.1 ms
+2025-04-02 11:06:47.742 +05:30 [INF] GetSortedPersons of PersonsService
+2025-04-02 11:06:47.762 +05:30 [INF] PersonsListActionFilter.OnActionExecuted method
+2025-04-02 11:06:47.801 +05:30 [INF] Before logic - ResponseHeaderActionFilter
+2025-04-02 11:06:47.806 +05:30 [INF] Before logic - ResponseHeaderActionFilter
+2025-04-02 11:06:47.812 +05:30 [INF] Before logic - ResponseHeaderActionFilter
+2025-04-02 11:06:47.822 +05:30 [INF] PersonsListResultFilter.OnResultExecutionAsync - before
+2025-04-02 11:06:47.845 +05:30 [INF] Executing ViewResult, running view Index.
+2025-04-02 11:06:48.034 +05:30 [INF] Executed ViewResult - view Index executed in 197.2098ms.
+2025-04-02 11:06:48.039 +05:30 [INF] PersonsListResultFilter.OnResultExecutionAsync - after
+2025-04-02 11:06:48.045 +05:30 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI) in 1590.2017ms
+2025-04-02 11:06:48.049 +05:30 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2025-04-02 11:06:48.053 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 02 Apr 2025 05:36:47 GMT
+Server: Kestrel
+Last-Modified: 2025-04-02 11:06
+Transfer-Encoding: chunked
+My-Key-From-Global: [Redacted]
+MyKey-FromAction: [Redacted]
+My-Key-From-Controller: [Redacted]
+2025-04-02 11:06:48.057 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5153/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-02 11:06:48.058 +05:30 [INF] HTTP GET / responded 200 in 1728.2341 ms
+2025-04-02 11:06:48.064 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5153/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 7.0153ms
+2025-04-02 11:06:48.075 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5153/ - 200 null text/html; charset=utf-8 1856.0578ms
+2025-04-02 11:06:48.081 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5153/_vs/browserLink - null null
+2025-04-02 11:06:48.128 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5153/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.9591ms
+2025-04-02 11:07:01.372 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5153/Account/Register - null null
+2025-04-02 11:07:01.429 +05:30 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/Register
+2025-04-02 11:07:01.440 +05:30 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI)'
+2025-04-02 11:07:01.450 +05:30 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2025-04-02 11:07:01.460 +05:30 [INF] Before logic - ResponseHeaderActionFilter
+2025-04-02 11:07:01.465 +05:30 [INF] Before logic - ResponseHeaderActionFilter
+2025-04-02 11:07:01.473 +05:30 [INF] Executing ViewResult, running view Register.
+2025-04-02 11:07:01.606 +05:30 [INF] Executed ViewResult - view Register executed in 134.9903ms.
+2025-04-02 11:07:01.613 +05:30 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI) in 153.7985ms
+2025-04-02 11:07:01.620 +05:30 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI)'
+2025-04-02 11:07:01.626 +05:30 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 02 Apr 2025 05:37:00 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+My-Key-From-Global: [Redacted]
+2025-04-02 11:07:01.631 +05:30 [INF] HTTP GET /Account/Register responded 200 in 202.5811 ms
+2025-04-02 11:07:01.641 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5153/Account/Register - 200 null text/html; charset=utf-8 268.6251ms
+2025-04-02 11:07:01.671 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5153/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-02 11:07:01.679 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5153/_vs/browserLink - null null
+2025-04-02 11:07:01.685 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5153/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 14.8226ms
+2025-04-02 11:07:01.719 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5153/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.6102ms
